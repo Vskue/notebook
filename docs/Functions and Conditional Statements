@@ -1,3 +1,55 @@
+# Guide: Functions and Conditional Statements
+##1. Define Functions and Returning Values
+In Pyhton, th functions such as 'print(), type(), str().
+A function is a body of reusable code for performing specific processes of tasks.
+
+# The print() function can print text.
+print("blue, red, green")
+
+# The type() function returns an object's data type
+number = 15
+type(number)
+
+# Know how to define our own funtions.
+To define a function, we use the keyword word 'def' at the start of the function block.
+
+# Define a function
+def greeting(name):
+print("Welcome, "+ name + "!")
+print("You are part of the team!")
+greeting("Victoria")
+[Output] Welcome, Victoria! You are part of the team!
+
+# Define a function to calculate the area of a triangle.
+def area_triangle(base, height):
+return base * hight / 2
+# use the function to assign new variables and perform calculations.
+area_a = area_triangle(5,4)
+area_b = area_triangle(7,3)
+total_area = area_a + area_b
+total_area
+[Output] 20.5
+
+# Define a function that convers hours, minutes, and seconds to total seconds.
+def get_seconds(hours, minutes, seconds):
+total_seconds = 3600*hours + 60*minutes + seconds
+return total_seconds
+# use the function to return a result.
+get_seconds(16,42,20)
+[Output]60320
+
+#2. Write Clean Code
+
+
+
+
+
+
+
+
+
+
+
 # Jupyter Notebook Documentation
 
 Welcome to the **Jupyter Notebook** documentation site. **Jupyter Notebook**
